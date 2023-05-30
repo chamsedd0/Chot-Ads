@@ -6,6 +6,12 @@
     cursor: none;
 }
 
+.container {
+
+    background-image: url("./Assets/backgroundImage.png");
+
+}
+
 
 .Services {
     cursor: none;
@@ -15,9 +21,6 @@
     flex-direction: column;
 
     gap: 3rem;
-
-    
-    
 
     height: 100vh; 
     width: 100vw;
@@ -48,6 +51,7 @@
 
 .Services h1 {
     z-index: 1;
+    opacity: 0.7;
     margin-top: 3rem;
     letter-spacing: 3px;
     animation: h1appear 0.6s cubic-bezier(0,-0.7,0,1.75);
@@ -61,6 +65,16 @@
     width: 100vw;
     position: fixed;
     z-index: -2;
+}
+
+video {
+    pointer-events: none;
+}
+
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.311);
 }
 
 @media screen and (max-width: 930px) {

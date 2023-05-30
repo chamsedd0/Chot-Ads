@@ -109,7 +109,7 @@ const Menu = styled.div`
     @media screen and (max-width: 1000px){
         
         gap: 10px;
-        margin-left: 6rem;
+        margin-left: 5rem;
 
         .first{
             width: 3.2rem;
@@ -127,9 +127,17 @@ const Menu = styled.div`
         }
     }
     }
+
+    @media screen and (max-width: 1000px){
+
+        margin-left: 4rem;
+
+    }
+
+
     @media screen and (max-width: 600px){
         gap: 10px;
-        margin-left: 5rem;
+        margin-left: 3.5rem;
 
         .line {
             height: 5px;

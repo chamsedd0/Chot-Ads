@@ -53,7 +53,7 @@ function App() {
             <Services onWhite={onWhite} setOnWhite={setOnWhite} />
           </Route>
 
-          <Route exact path="/Contact">
+          <Route exact path="/Contacts">
             <Contact/>
           </Route>
 

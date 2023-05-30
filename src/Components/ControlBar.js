@@ -58,6 +58,10 @@ const Bar = styled.div`
     }
   }
 
+  @media screen and (max-width: 800px){
+    display: none;
+  }
+
 
   @keyframes upDown {
     0%{
