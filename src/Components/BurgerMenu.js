@@ -165,6 +165,7 @@ const Shadow = styled.div`
     height: 1000px;
     border-radius: 50%;
     filter: blur(1.5rem);
+    box-shadow: none;
     transition: all 1.2s ease-out;
     -moz-transition: all 1.2s ease-out; 
     -webkit-transition: all 1.2s ease-out;
