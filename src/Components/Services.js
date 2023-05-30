@@ -3,7 +3,7 @@ import VideoBg from "../Assets/VideoBg.mp4"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+//import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 // import required modules
 import { EffectCards } from "swiper";
 import "swiper/css/effect-cards";

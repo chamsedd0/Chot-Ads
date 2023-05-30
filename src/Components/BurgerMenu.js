@@ -20,10 +20,10 @@ const BurgerMenu = ({active, setActive}) => {
                 
             </Menu>
             <Links active={active}>
-                    <Link onClick={()=> {active ? setActive(false) : setActive(true)}} className="home" to="/"><FontAwesomeIcon icon={faHome} /></Link>
-                    <Link onClick={()=> {active ? setActive(false) : setActive(true)}} className="link" to="/Services">Services</Link>
-                    <Link onClick={()=> {active ? setActive(false) : setActive(true)}} className="link" to="/Portfolio">About us</Link>
-                    <Link onClick={()=> {active ? setActive(false) : setActive(true)}} className="link" to="/Contact">Contacts</Link>
+                    <Link onClick={()=> {active ? setActive(false) : setActive(true)}} className="home" to="/Chot-Ads"><FontAwesomeIcon icon={faHome} /></Link>
+                    <Link onClick={()=> {active ? setActive(false) : setActive(true)}} className="link" to="/Chot-Ads/Services">Services</Link>
+                    <Link onClick={()=> {active ? setActive(false) : setActive(true)}} className="link" to="/Chot-Ads/AboutUs">About us</Link>
+                    <Link onClick={()=> {active ? setActive(false) : setActive(true)}} className="link" to="/Chot-Ads/Contacts">Contacts</Link>
             </Links>
         </NavBar>
 

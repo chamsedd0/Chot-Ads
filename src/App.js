@@ -45,15 +45,15 @@ function App() {
 
         <Switch>
 
-          <Route exact path="/">
+          <Route exact path="/Chot-Ads">
             <ActionCall/>
           </Route>
 
-          <Route exact path="/Services">
+          <Route exact path="/Chot-Ads/Services">
             <Services onWhite={onWhite} setOnWhite={setOnWhite} />
           </Route>
 
-          <Route exact path="/Contact">
+          <Route exact path="/Chot-Ads/Contact">
             <Contact/>
           </Route>
 
