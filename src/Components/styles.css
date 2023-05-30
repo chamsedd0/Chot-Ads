@@ -1,0 +1,52 @@
+.swiper {
+    margin-top: 3rem;
+    width: 840px;
+    height: 520px;
+    padding: 3rem 5rem;
+    animation: slideAppear 0.7s cubic-bezier(0,-0.7,0,1.75);
+}
+
+
+  
+.swiper-slide {
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 18px;
+font-size: 22px;
+font-weight: bold;
+color: black;
+}
+
+.swiper-slide{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+@media screen and (max-width: 600px) {
+    .swiper{
+        margin-right: 1rem;
+        margin-left: -1rem;
+        height: 460px;
+    }
+
+}
+
+@keyframes slideAppear {
+    0%{
+        opacity: 0.5;
+        transform: scale(0.95);
+    }
+    50%{
+        transform: scale(1.08);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
