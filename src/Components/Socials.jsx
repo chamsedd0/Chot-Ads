@@ -10,7 +10,7 @@ const Socials = () => {
 
     return(
         <Footer>
-            <a href="https://www.instagram.com/chot.ads/"  target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="https://www.instagram.com/chot.ads/" ><FontAwesomeIcon icon={faInstagram} /></a>
         </Footer>
     );
 
