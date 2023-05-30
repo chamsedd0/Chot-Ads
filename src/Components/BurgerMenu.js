@@ -53,6 +53,8 @@ const Menu = styled.div`
     justify-content: center;
     gap: 10px;
     margin-left: 8rem;
+    box-shadow: none;
+
 
     .active {
         background-color: white;
@@ -161,10 +163,11 @@ const Shadow = styled.div`
     top: -510px;
     left: -600px;
     background-color: #0000008c;
-    width: 1150px;
-    height: 1000px;
+    width: 1250px;
+    height: 1100px;
     border-radius: 50%;
     filter: blur(1.5rem);
+    
     box-shadow: none;
     transition: all 1.2s ease-out;
     -moz-transition: all 1.2s ease-out; 
