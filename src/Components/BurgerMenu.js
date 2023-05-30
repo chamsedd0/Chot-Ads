@@ -163,8 +163,8 @@ const Shadow = styled.div`
     top: -510px;
     left: -600px;
     background-color: #0000008c;
-    width: 1250px;
-    height: 1100px;
+    width: 1150px;
+    height: 1000px;
     border-radius: 50%;
     filter: blur(1.5rem);
     
